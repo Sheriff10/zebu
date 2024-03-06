@@ -1,0 +1,19 @@
+@font-face {
+   font-family: "bear";
+   src: url("/public/font/ammazing.ttf") format("truetype");
+   font-weight: normal;
+   font-style: normal;
+}
+
+.bg-grad {
+   background: rgb(51, 23, 6);
+   background: linear-gradient(
+      48deg,
+      rgba(51, 23, 6, 1) 29%,
+      rgba(19, 19, 19, 1) 68%
+   );
+}
+
+.font-bear {
+   font-family: "bear";
+}
